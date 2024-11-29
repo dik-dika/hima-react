@@ -1,0 +1,147 @@
+.app {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #2c3e50;
+  padding: 1rem;
+}
+
+.navbar-brand {
+  color: #f7f7f7;
+}
+
+.nav-link {
+  color: #f7f7f7;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #1abc9c;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid transparent; /* Tidak ada garis bawah */
+}
+
+.nav-link:focus {
+  outline: none; /* Menghapus efek outline */
+}
+
+
+.home-section {
+  height: 100vh;
+  background: linear-gradient(to right, #34495e, #2c3e50);
+  color: white;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#home p {
+  text-align: justify;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.section-background {
+  background: linear-gradient(to right, #34495e, #2c3e50);
+  color: white;
+  padding: 4rem 0;
+}
+
+.proker-img {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-info p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #0056b3;
+}
+
+.social-icons a:hover {
+  color: #1abc9c;
+}
+
+.contact-form .form-control {
+  margin-bottom: 15px;
+}
+
+.contact-form button {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+p {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.visi-section {
+  margin-left: 30px;
+}
+
+.workshop-section {
+  margin-left: 30px;
+}
+
+.mabim-section {
+  margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .home-section h2 {
+    font-size: 2rem;
+  }
+
+  .contact-form button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .home-section {
+    padding: 2rem 1rem;
+  }
+
+  #home p {
+    padding: 0 10px;
+  }
+
+  .proker-img {
+    max-width: 100%;
+  }
+}
